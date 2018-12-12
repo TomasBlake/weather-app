@@ -1,0 +1,52 @@
+.day {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+}
+
+.day:hover {
+    border: 3px solid rgb(228, 228, 228);
+    cursor: pointer;
+}
+
+.day:hover > .title {
+    color: rgb(56, 56, 56);
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(206, 206, 206);
+}
+
+.temperatures {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 40%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.day-temperature {
+    flex: 1;
+    font-size: 25px;
+    color: rgb(255, 217, 0);
+    font-family: inherit;
+}
+
+.night-temperature {
+    flex:1;
+    font-size: 25px;
+    font-family: inherit;
+    color: rgb(0, 0, 107);
+}
+
+.icon-div {
+ width: auto;
+ height: auto;
+}
+
+.icon-img {
+    width: 70px;
+    height: 70px
+}

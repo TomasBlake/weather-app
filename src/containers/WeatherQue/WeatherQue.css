@@ -1,0 +1,7 @@
+.weather-que {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+}
